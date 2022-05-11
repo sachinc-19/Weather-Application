@@ -1,9 +1,11 @@
 body {
-    color: #333333;
+    color: rgb(83, 10, 61);;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 650px;
     margin: 0 auto;
     padding:0 16px;
+    background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('/img/weather_back.png');
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -15,8 +17,8 @@ body {
 }
 
 footer {
-    color: #888888;
-    border-top: 1px solid #eeeeee;
+    color: rgb(83, 10, 61) ;
+    border-top: 1px solid #200217;
     margin-top: 16px;
     padding: 16px 0;
 }
@@ -32,13 +34,9 @@ h1 {
 }
 
 header a {
-    color: #888888;
+    color: coral;
     margin-right: 16px;
     text-decoration: none;
-}
-
-.po rtrait {
-    width: 250px;
 }
 
 input {
